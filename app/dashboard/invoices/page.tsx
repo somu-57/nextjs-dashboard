@@ -1,3 +1,8 @@
 export default function Invoices() {
-    return <p>Invoices Page</p>;
+  return (
+    <div>
+      <h1 className="text-2xl font-bold">Invoices</h1>
+      <p>Invoices page content goes here...</p>
+    </div>
+  );
 }

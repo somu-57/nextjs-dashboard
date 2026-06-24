@@ -1,3 +1,8 @@
 export default function Customers() {
-    return <p>Customers Page</p>;
+  return (
+    <div>
+      <h1 className="text-2xl font-bold">Customers</h1>
+      <p>Customers page content goes here...</p>
+    </div>
+  );
 }
